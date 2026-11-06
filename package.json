@@ -1,0 +1,13 @@
+{
+  "name": "loongenv-doc",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static build of the LoongEnv documentation for GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "marked": "^18.1.3"
+  }
+}
